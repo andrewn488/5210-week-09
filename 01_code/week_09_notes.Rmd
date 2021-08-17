@@ -1,0 +1,147 @@
+---
+title: "Week-9-Notes"
+author: "Andrew Nalundasan"
+date: "8/16/2021"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    number_sections: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Overview video
+
++ narrowing of survey data
+
++ looking at Power BI
+
+    - slot in R techniques into Power BI
+    
+## Technical Update
+
++ Don't rely on coorelation plots to drive research
+
+    - This gives hints on where to look
+    - Does not provide the answer
+    - Don't blindly select on correlation
+    - Correlation does not mean causation
+    
++ correlation is a linear relationship
+
+    - correlation only looks at linear relationship
+    - negative and positive slopes in a U shaped distribution cancel out
+    
++ correlation is good place to start, but not the end all be all
+
+## outdated code
+
++ mutate_all() and mutate_if()
+
+    - mutate(across = ...)
+    - mutate(case_when = ...)
+        - replace for mutate_all and mutate_if
+    - case_when
+    - str_replace("regular expression")
+    
++ gather() and spread()
+
+    - pivot_longer() and pivot_wider()
+    
+# Good Research Questions
+
++ avoid doing an "all about" paper
+
+    - need to have a direct question to answer and tell a story about
+    - story telling is all about answering a question and making a point
+        - avoid just writing a report about "stuff"
+        
++ research question addresses a problem that an audience will care about
+
+    - shape the problem in a way for it to become a testable hypothesis
+        - in order to reject or fail to reject
+        
++ don't spend time "making data" 
+        
+
+# Correlation to narrow data set
+
++ always look at the data to ensure your code is doing what you expect it to do
+
++ use the code from lecture materials for help with wrangling, even though most commands are deprecated
+
+    - Use commands that NHK suggests
+    
++ small samples are likely to have spurious correlation that is meaningless
+
+# Visualizing Survey Data
+
++ visualize likert survey data with stacked bar graphs --> each bar adds to 1
+
++ create a heat map
+
+# Putting it together
+
++ use all elements to create a story with visuals
+
+1. Identify the audience
+
+2. Identify what they need to know
+    
+    - What recommendation would you make based on your experience and the data
+
+3. Determine the data we'll use to inform them
+
+4. Choose the appropriate display
+
+    - How best visualize the data you have selected to make your point
+    
+5. Eliminate clutter
+
+    - Make the visual as plain as possible
+    
+6. Draw attention where you want it
+
+    - Emphasize with shading or labels
+    
+7. Think like a designer
+
+    - Affordances to make your points obvious
+    - Use text to your advantage
+    - Improve aesthetics 
+    
+8. Tell a story
+
+    - Don't just show the data, use the data to tell a story
+    
+# Power BI Introduction
+
+
+
+# Tour
+
++ Matrix - all rows represent similar type of information 
+
++ Table - different information in each row. May have summaries of information. Need row names in a table
+
+# Getting Data
+
++ Possible to do data wrangling in R or Python and using the script in PBI
+
++ Can track what happened to the data by looking at "Applied Steps"
+
++ Used "Transform" to do simple manipulations prior to loading data sets to PBI
+
+
+
+# Building a Report
+
+
+
+# Power BI Service
+
